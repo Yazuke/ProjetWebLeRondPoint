@@ -1,0 +1,148 @@
+<div class="container-contact100">
+  <div class="wrap-contact100">
+    <form class="contact100-form validate-form" method="post" action="email.php">
+      <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Entrez votre prénom">
+        <input id="prenom" class="input100" type="text" name="prenom" placeholder="Prénom">
+        <span class="focus-input100"></span>
+      </div>
+      <div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Entrez votre nom de famille">
+        <input id="nom" class="input100" type="text" name="nom" placeholder="Nom">
+        <span class="focus-input100"></span>
+      </div>
+
+      <label class="label-input100" for="email">Mail</label>
+      <div class="wrap-input100 validate-input" data-validate = "Entrez une adresse électronique valide: ex@abc.xyz">
+        <input id="email" class="input100" type="text" name="email" placeholder="ex:         exemple@gmail.com">
+        <span class="focus-input100"></span>
+      </div>
+
+      <label class="label-input100" for="tel">Tel</label>
+      <div class="wrap-input100 validate-input" data-validate = "Entrez un numéro de téléphone">
+        <input id="tel" class="input100" type="text" name="tel" placeholder="ex:         +33 6 00 00 00">
+        <span class="focus-input100"></span>
+      </div>
+
+      <div class=" select100 validate-input" data-validate = "Indiquez le nombre d'adultes">
+        <select id="adultes" name="adultes" class="custom-select input100" >
+          <option value="">Nombres d'adultes</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+      <div class="select100 validate-input" data-validate = "Indiquez le nombre d'enfants">
+        <select id="enfants" name="enfants" class="custom-select input100">
+          <option value="">Nombres d'enfants</option>
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+      <div class="select10 validate-input" data-validate = "Indiquez le logement souhaité">
+        <select id="logement" name="logement" class="custom-select input100">
+          <option value="">Quel logement souhaitez vous réserver ?</option>
+          <option value="chambre">La chambre d'hôte</option>
+          <option value="gite">Le gîte</option>
+        </select>
+      </div>
+
+      <label class="label-input100" for="datein">Du</label>
+      <div class="selectdate validate-input" data-validate = "Indiquez la date d'arrivée">
+        <input id="datein" name="datein" class="form-control input100" type="text" placeholder="dd/mm/yyyy">
+      </div>
+      <label class="label-input100" for="dateout">Au</label>
+      <div class="selectdate validate-input" data-validate = "Indiquez la date de départ">
+        <input id="dateout" name="dateout" class="form-control input100" type="text" placeholder="dd/mm/yyyy">
+      </div>
+
+      <label class="label-input100" for="message">Message</label>
+      <div class="wrap-input100 validate-input">
+        <textarea id="message" class="input100" name="message" placeholder="Ecrivez nous un message"></textarea>
+        <span class="focus-input100"></span>
+      </div>
+
+      <div class="container-contact100-form-btn">
+        <button class="contact100-form-btn">
+          Envoyer la réservation
+        </button>
+      </div>
+    </form>
+
+    <div class="contact100-more flex-col-c-m" style="background-image: url('../../assets/img/bg/bg1.jpg');">
+      <div class="flex-w size1 p-b-47">
+        <div class="txt1 p-r-25">
+          <span class="fas fa-map-marker-alt"></span>
+        </div>
+
+        <div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Adresse
+						</span>
+
+          <span class="txt2">
+							12 rue de la Serre, 65190 Tournay<br/>région Hautes-Pyrénées, FRANCE
+						</span>
+        </div>
+      </div>
+
+      <div class="dis-flex size1 p-b-47">
+        <div class="txt1 p-r-25">
+          <span class="fas fa-phone-square"></span>
+        </div>
+
+        <div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Tel
+						</span>
+
+          <span class="txt3">
+							+33 6 89 76 36 79
+						</span>
+        </div>
+      </div>
+
+      <div class="dis-flex size1 p-b-47">
+        <div class="txt1 p-r-25">
+          <span class="fas fa-envelope"></span>
+        </div>
+
+        <div class="flex-col size2">
+						<a href="mailto:lessen_ciel@outlook.fr" class="txt1 p-b-20">
+							Mail
+						</a>
+
+          <a href="mailto:lessen_ciel@outlook.fr" class="txt3">
+              lessen_ciel@outlook.fr
+						</a>
+        </div>
+      </div>
+        <div class="flex-w size1 p-b-47">
+          <div class="txt1 p-r-25">
+            <span class="fas fa-money-check-alt"></span>
+          </div>
+
+          <div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Moyens de paiement
+						</span>
+
+            <span class="txt2">
+							Nous acceptons les chèques vacances, les espèces et paiements Paypal<br/>
+						</span>
+        </div>
+      </div>
+      <div class="flex-w size1 p-b-47">
+        <div class="txt1modif p-r-25">
+          <img src="../../assets/img/cheque.png" style=" width: 100px; height: 100px">
+        <img src="../../assets/img/espece.png" style=" width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;">
+          <img src="../../assets/img/paypal2.png" style=" width: 200px; height: 100px">
+
+        </div>
+      </div>
+      </div>
+  </div>
+</div>
+

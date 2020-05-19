@@ -1,0 +1,17 @@
+
+@import 'now-ui-kit/variables';
+@import 'now-ui-kit/mixins';
+
+
+// Core CSS
+@import "now-ui-kit/misc";
+
+// components
+@import "now-ui-kit/tabs";
+@import "now-ui-kit/navbar";
+@import "now-ui-kit/images";
+
+// example pages and sections
+@import "now-ui-kit/sections";
+
+@import "now-ui-kit/responsive";
