@@ -1,4 +1,4 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import * as Rellax from 'rellax';
 declare var $: any;
 
@@ -22,8 +22,7 @@ export class IndexComponent implements OnInit {
     $('.headerwrap').backstretch([
       '../assets/img/bg/bg1.jpg',
       '../assets/img/bg/bg2.jpg',
-      '../assets/img/bg/bg3.jpg',
-      '../assets/img/bg/bg4.jpg'
+      '../assets/img/bg/bg3.jpg'
     ], {
       duration: 5000,
       fade: 500
@@ -43,19 +42,6 @@ export class IndexComponent implements OnInit {
       animation: 'dissolve',
       separator: ',',
       speed: 5000 // How many milliseconds until the next word show.
-    });
-    $('.owl-carousel').owlCarousel( {
-      items: 1,
-      loop : true,
-      center : true,
-      autoWidth : true,
-      margin: 10,
-      nav: true,
-      navText: [
-        '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-        '<i class="fa fa-angle-right" aria-hidden="true"></i>'
-      ],
-      navContainer: '.main-content .custom-nav'
     });
     $('#arrow').hover(
       function() {

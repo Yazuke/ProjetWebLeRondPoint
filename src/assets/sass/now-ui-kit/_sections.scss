@@ -92,6 +92,10 @@
         @include linear-gradient(rgba($black-color,.20), rgba(224, 23, 3, 0.6));
     }
 
+    &[filter-color="black"]{
+        @include linear-gradient(rgba($black-color,.20), rgba(16, 15, 15, 0.6));
+    }
+
     .container{
         z-index: 2;
     }
@@ -295,7 +299,7 @@
     background-color: $orange-bg;
 }
 [data-background-color="black"]{
-    background-color: $black-color;
+    background-color: $black-bg;
 }
 
 [data-background-color]{

@@ -98,10 +98,10 @@ $light-red:                  rgba($danger-color, .2);
 //
 
 $padding-input-vertical:        11px !default;
-$padding-input-horizontal:      19px !default;
+$padding-input-horizontal:      0px !default;
 
 $padding-btn-vertical:         11px !default;
-$padding-btn-horizontal:       22px !default;
+$padding-btn-horizontal:       0px !default;
 
 $padding-base-vertical:        .5rem !default;
 $padding-base-horizontal:      .7rem !default;
@@ -109,24 +109,24 @@ $padding-base-horizontal:      .7rem !default;
 $padding-round-horizontal:     23px !default;
 
 $padding-simple-vertical:      10px !default;
-$padding-simple-horizontal:    17px !default;
+$padding-simple-horizontal:    0px !default;
 
 $padding-large-vertical:       15px !default;
-$padding-large-horizontal:     48px !default;
+$padding-large-horizontal:     0px !default;
 
 $padding-small-vertical:        5px !default;
-$padding-small-horizontal:     15px !default;
+$padding-small-horizontal:     0px !default;
 
 // $padding-xs-vertical:           1px !default;
 // $padding-xs-horizontal:         5px !default;
 
 $padding-label-vertical:        2px !default;
-$padding-label-horizontal:     12px !default;
+$padding-label-horizontal:     0px !default;
 
 $margin-large-vertical:        30px !default;
-$margin-base-vertical:         15px !default;
+$margin-base-vertical:         0px !default;
 
-$margin-base-horizontal:       15px !default;
+$margin-base-horizontal:       0px !default;
 
 $margin-bottom:                 10px        !default;
 $border:                        1px solid   !default;
@@ -198,21 +198,21 @@ $transition-ease:           ease 0s;
 
 
 //$navbar-padding-a:               9px 13px;
-$navbar-margin-a:                15px 0px;
+$navbar-margin-a:                0px 0px;
 
 $padding-social-a:               10px 5px;
 
-$navbar-margin-a-btn:            15px 0px;
-$navbar-margin-a-btn-round:      16px 0px;
+$navbar-margin-a-btn:            0px 0px;
+$navbar-margin-a-btn-round:      0px 0px;
 
 $navbar-padding-a-icons:         6px 15px;
 $navbar-margin-a-icons:          6px  3px;
 
-$navbar-padding-base:            0.625rem;
+$navbar-padding-base:            0;
 //$navbar-margin-brand:             5px  0px;
 
 $navbar-margin-brand-icons:      12px auto;
-$navbar-margin-btn:              15px  3px;
+$navbar-margin-btn:              0px  0px;
 
 $height-icon-sm:				 32px;
 $width-icon-sm:					 32px;

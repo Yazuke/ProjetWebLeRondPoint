@@ -121,3 +121,17 @@
     }
   }
 }
+
+[data-tabs-color="black"]{
+    .nav-tabs{
+      background-color: $black-bg;
+  
+      .nav-item .nav-link{
+          color: $white-color;
+          &.active{
+            box-shadow: none;
+            border-color: rgba(255, 255, 255, 0.5);
+          }
+      }
+    }
+  }

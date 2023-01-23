@@ -6,20 +6,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { IndexComponent } from './index/index.component';
-import { ChambresComponent } from './chambres/chambres.component';
-import { GiteComponent } from './gite/gite.component';
-import { ReserverComponent } from './reserver/reserver.component';
-import { ActivitesComponent } from './activites/activites.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    IndexComponent,
-    ChambresComponent,
-    GiteComponent,
-    ReserverComponent,
-    ActivitesComponent
+    IndexComponent
   ],
   imports: [
     BrowserModule,
